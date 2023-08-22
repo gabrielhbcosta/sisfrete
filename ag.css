@@ -1,0 +1,52 @@
+body {
+    background-color: #d0d8e7;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 3px;
+    border: none;
+}
+
+button {
+    width: 30%;
+    height: 32px;
+    background:#002257;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+}
+
+button:hover {
+    background:#010025;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+fieldset {
+    border: 2px solid #002257;
+}
+
+.agendamento {
+    text-align: center;
+}
